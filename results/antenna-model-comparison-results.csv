@@ -1,0 +1,33 @@
+experiment_id,propagation_case,reflection_interpretation,antenna_model,pointing_error_deg,distance_m,carrier_frequency_ghz,boresight_gain_dbi,horizontal_3db_beamwidth_deg,vertical_3db_beamwidth_deg,max_pattern_attenuation_db,tx_pattern_gain_dbi,rx_pattern_gain_dbi,total_antenna_gain_db,tx_power_dbm,window_insertion_loss_db,path_loss_db,predicted_rx_power_dbm,noise_power_dbm,snr_db,tx_packets,rx_packets,pdr_percent,packet_error_probability,throughput_mbps,mean_one_way_latency_ms
+antenna_Isotropic_error0,FriisDirectLos,Direct LOS only,Isotropic,0,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51803
+antenna_Isotropic_error15,FriisDirectLos,Direct LOS only,Isotropic,15,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51311
+antenna_Isotropic_error30,FriisDirectLos,Direct LOS only,Isotropic,30,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51475
+antenna_Isotropic_error45,FriisDirectLos,Direct LOS only,Isotropic,45,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51475
+antenna_Isotropic_error60,FriisDirectLos,Direct LOS only,Isotropic,60,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51066
+antenna_Isotropic_error75,FriisDirectLos,Direct LOS only,Isotropic,75,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51148
+antenna_Isotropic_error90,FriisDirectLos,Direct LOS only,Isotropic,90,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51803
+antenna_Isotropic_error0,TwoRayGroundExploratory,Ground-plane sensitivity; not a cryostat-wall model,Isotropic,0,1,7.5,5,360,360,0,0,0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51311
+antenna_Cosine_error0,FriisDirectLos,Direct LOS only,Cosine,0,1,7.5,5,90,90,25,5,5,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.5123
+antenna_Cosine_error15,FriisDirectLos,Direct LOS only,Cosine,15,1,7.5,5,90,90,25,4.67444,4.67444,9.34888,0,0.5,50.449,-41.1001,-93.9649,52.8648,1220,1220,100,0,1.02675,1.51393
+antenna_Cosine_error30,FriisDirectLos,Direct LOS only,Cosine,30,1,7.5,5,90,90,25,3.68637,3.68637,7.37274,0,0.5,50.449,-43.0763,-93.9649,50.8886,1220,1220,100,0,1.02675,1.51393
+antenna_Cosine_error45,FriisDirectLos,Direct LOS only,Cosine,45,1,7.5,5,90,90,25,2,2,4,0,0.5,50.449,-46.449,-93.9649,47.5159,1220,1220,100,0,1.02675,1.51639
+antenna_Cosine_error60,FriisDirectLos,Direct LOS only,Cosine,60,1,7.5,5,90,90,25,-0.450341,-0.450341,-0.900683,0,0.5,50.449,-51.3497,-93.9649,42.6152,1220,1220,100,0,1.02675,1.51967
+antenna_Cosine_error75,FriisDirectLos,Direct LOS only,Cosine,75,1,7.5,5,90,90,25,-3.77136,-3.77136,-7.54271,0,0.5,50.449,-57.9917,-93.9649,35.9732,1220,1220,100,0,1.02675,1.5123
+antenna_Cosine_error90,FriisDirectLos,Direct LOS only,Cosine,90,1,7.5,5,90,90,25,-8.13217,-8.13217,-16.2643,0,0.5,50.449,-66.7133,-93.9649,27.2515,1220,1220,100,0,1.02675,1.51475
+antenna_Cosine_error0,TwoRayGroundExploratory,Ground-plane sensitivity; not a cryostat-wall model,Cosine,0,1,7.5,5,90,90,25,5,5,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.50984
+antenna_Parabolic_error0,FriisDirectLos,Direct LOS only,Parabolic,0,1,7.5,5,90,360,25,-0,-0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51803
+antenna_Parabolic_error15,FriisDirectLos,Direct LOS only,Parabolic,15,1,7.5,5,90,360,25,-0.333333,-0.333333,9.33333,0,0.5,50.449,-41.1157,-93.9649,52.8492,1220,1220,100,0,1.02675,1.50984
+antenna_Parabolic_error30,FriisDirectLos,Direct LOS only,Parabolic,30,1,7.5,5,90,360,25,-1.33333,-1.33333,7.33333,0,0.5,50.449,-43.1157,-93.9649,50.8492,1220,1220,100,0,1.02675,1.51803
+antenna_Parabolic_error45,FriisDirectLos,Direct LOS only,Parabolic,45,1,7.5,5,90,360,25,-3,-3,4,0,0.5,50.449,-46.449,-93.9649,47.5159,1220,1220,100,0,1.02675,1.51803
+antenna_Parabolic_error60,FriisDirectLos,Direct LOS only,Parabolic,60,1,7.5,5,90,360,25,-5.33333,-5.33333,-0.666667,0,0.5,50.449,-51.1157,-93.9649,42.8492,1220,1220,100,0,1.02675,1.51639
+antenna_Parabolic_error75,FriisDirectLos,Direct LOS only,Parabolic,75,1,7.5,5,90,360,25,-8.33333,-8.33333,-6.66667,0,0.5,50.449,-57.1157,-93.9649,36.8492,1220,1220,100,0,1.02675,1.51393
+antenna_Parabolic_error90,FriisDirectLos,Direct LOS only,Parabolic,90,1,7.5,5,90,360,25,-12,-12,-14,0,0.5,50.449,-64.449,-93.9649,29.5159,1220,1220,100,0,1.02675,1.51148
+antenna_Parabolic_error0,TwoRayGroundExploratory,Ground-plane sensitivity; not a cryostat-wall model,Parabolic,0,1,7.5,5,90,360,25,-0,-0,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51475
+antenna_ThreeGppIndoor_error0,FriisDirectLos,Direct LOS only,ThreeGppIndoor,0,1,7.5,5,90,90,25,5,5,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51475
+antenna_ThreeGppIndoor_error15,FriisDirectLos,Direct LOS only,ThreeGppIndoor,15,1,7.5,5,90,90,25,4.66667,4.66667,9.33333,0,0.5,50.449,-41.1157,-93.9649,52.8492,1220,1220,100,0,1.02675,1.51311
+antenna_ThreeGppIndoor_error30,FriisDirectLos,Direct LOS only,ThreeGppIndoor,30,1,7.5,5,90,90,25,3.66667,3.66667,7.33333,0,0.5,50.449,-43.1157,-93.9649,50.8492,1220,1220,100,0,1.02675,1.50984
+antenna_ThreeGppIndoor_error45,FriisDirectLos,Direct LOS only,ThreeGppIndoor,45,1,7.5,5,90,90,25,2,2,4,0,0.5,50.449,-46.449,-93.9649,47.5159,1220,1220,100,0,1.02675,1.51148
+antenna_ThreeGppIndoor_error60,FriisDirectLos,Direct LOS only,ThreeGppIndoor,60,1,7.5,5,90,90,25,-0.333333,-0.333333,-0.666667,0,0.5,50.449,-51.1157,-93.9649,42.8492,1220,1220,100,0,1.02675,1.51475
+antenna_ThreeGppIndoor_error75,FriisDirectLos,Direct LOS only,ThreeGppIndoor,75,1,7.5,5,90,90,25,-3.33333,-3.33333,-6.66667,0,0.5,50.449,-57.1157,-93.9649,36.8492,1220,1220,100,0,1.02675,1.51393
+antenna_ThreeGppIndoor_error90,FriisDirectLos,Direct LOS only,ThreeGppIndoor,90,1,7.5,5,90,90,25,-7,-7,-14,0,0.5,50.449,-64.449,-93.9649,29.5159,1220,1220,100,0,1.02675,1.51148
+antenna_ThreeGppIndoor_error0,TwoRayGroundExploratory,Ground-plane sensitivity; not a cryostat-wall model,ThreeGppIndoor,0,1,7.5,5,90,90,25,5,5,10,0,0.5,50.449,-40.449,-93.9649,53.5159,1220,1220,100,0,1.02675,1.51967
