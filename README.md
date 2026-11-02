@@ -9,7 +9,7 @@ source tree. Clone it directly into that location:
 
 ```bash
 cd /path/to/ns-3.47
-git clone https://github.com/spudMelf/ns3-cryogenic-channel-capstone.git scratch/capstone
+git clone https://github.com/spudMelf/capstone-2026.git scratch/capstone
 ```
 
 The simulations require the standard ns-3 applications, antenna, core,
